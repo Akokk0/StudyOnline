@@ -8,8 +8,46 @@
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
 .header {
-    height: 46px;
+    height: 42px;
     margin: 30px auto;
     background-color: pink;
+}
+
+.logo {
+    float: left;
+    height: 42px;
+    width: 195px;
+    /*background-color: skyblue;*/
+}
+
+.nav {
+    float: left;
+    margin-left: 60px;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 15px;
+    line-height: 42px;
+}
+
+.nav ul li a {
+    display: block;
+    height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    color: #050505;
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid #0099FF;
 }
