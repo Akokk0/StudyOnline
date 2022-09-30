@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #f3f5f7;
+}
+
 .w {
     width: 1200px;
     margin: 0 auto;
@@ -19,7 +23,7 @@ ul {
 .header {
     height: 42px;
     margin: 30px auto;
-    background-color: pink;
+    /*background-color: pink;*/
 }
 
 .logo {
@@ -50,4 +54,78 @@ ul {
 
 .nav ul li a:hover {
     border-bottom: 2px solid #0099FF;
+    color: #0099FF;
+}
+
+.search {
+    float: left;
+    width: 412px;
+    height: 42px;
+    margin-left: 70px;
+    /*background-color: skyblue;*/
+}
+
+.search input {
+    float: left;
+    width: 346px;
+    height: 40px;
+    border: 1px solid #0099FF;
+    outline: none;
+    border-right: 0;
+    padding-left: 15px;
+}
+
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    border: 0;
+    background-image: url('../img/btn.png');
+}
+
+.avatar {
+    float: right;
+    margin-right: 30px;
+    line-height: 42px;
+    color: #666;
+    font-size: 14px;
+}
+
+.banner {
+    height: 420px;
+    background-color: #1C036B;
+}
+
+.banner .w {
+    height: 420px;
+    background: url("../img/banner2.png") no-repeat top center;
+}
+
+.subnav {
+    width: 190px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.subnav ul li {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+}
+
+.subnav ul li:hover {
+    background-color: #0099FF;
+}
+
+.subnav ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+/*.subnav ul li a:hover {
+    color: #0099FF;
+}*/
+
+.subnav ul li a span {
+    float: right;
 }
